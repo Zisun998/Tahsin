@@ -1,0 +1,841 @@
+@charset "utf-8";
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+.name {
+    color: #FFFFFF;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: -86px;
+    margin-right: 94px;
+}
+.about-padd {
+    margin-top: 27px;
+    color: #A0D2EB;
+    font-family: abel;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 51px;
+    font-size: 41px;
+}
+.title-padd {
+    font-size: 21px;
+    font-family: abel;
+    font-style: normal;
+    font-weight: 400;
+    color: #D0BDF4;
+    margin-left: 259px;
+    margin-top: 100px;
+}
+.text {
+    color: #E2E2E2;
+    font-size: 16px;
+    font-family: abel;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 640px;
+}
+
+.all-title {
+    color: #A0D2EB;
+    font-family: abel;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+}
+
+.office-padd {
+    color: #D8D8D8;
+    margin-top: -36px;
+}
+
+
+
+
+.hello {
+    color: #FFFFFF;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    margin-left: 117px;
+}
+
+
+
+.width {
+    max-width: 1366px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+header {
+    background-color: #000000;
+    padding-top: 15px;
+    padding-left: 19px;
+    padding-bottom: 10px;
+    padding-right: 19px;
+}
+header nav {
+    float: right;
+    margin-top: -19px;
+    margin-right: -7px;
+}
+nav div ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.btn-red {
+    background-color: #FF6138;
+    border-radius: 5px;
+}
+.burger {
+    display: none;
+    margin-right: 2px;
+    margin-top: 8px;
+}
+.desktop-burger {
+    display: block;
+}
+.hero-image {
+    height: 653px;
+    background-image: url(images/hero%20image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+}
+.hero-bird {
+    height: 653px;
+    background-image: url(images/scenery%20birds%20flying.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: -webkit-linear-gradient(270deg,rgba(17,19,22,1.00) 0%,rgba(39,42,49,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(17,19,22,1.00) 0%,rgba(39,42,49,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(17,19,22,1.00) 0%,rgba(39,42,49,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(17,19,22,1.00) 0%,rgba(39,42,49,1.00) 100%);
+}
+footer a img {
+
+}
+footer .float-left a img {
+    margin-left: 5px;
+    padding-right: 0px;
+
+}
+.float-right a img {
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: 300;
+    margin-right: -2px;
+    margin-bottom: -1.8px;
+    margin-left: 1px;
+    padding-bottom: 0px;
+}
+.width footer .float-right {
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 10px;
+
+}
+footer {
+    background-color: #000000;
+    padding-top: 66.5px;
+    padding-bottom: 120px;
+}
+.content {
+    margin-top: 585px;
+
+}
+.column {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.col-lg {
+    width: 48%;
+    margin-bottom: 2%;
+}
+.btn-talk {
+    background-color: #FF6138;
+    list-style-type: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.width main .content .btn-talk {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 52px;
+    margin-top: 19px;
+}
+
+.hero-image .width main .btn-red {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 41px;
+    margin-left: 43%;
+    margin-right: 43%;
+    font-size: 16px;
+    width: 14%;
+}
+.category {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+
+}
+.width main .float-left.category {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.clear-float {
+    clear: both;
+}
+.center {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.parent-div{
+	display:flex;
+	justify-content:center;
+	align-items: center
+}
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.arrow {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #FFFFFF;
+}
+.no-underline {
+    text-decoration: none;
+
+
+
+
+}
+.icon {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bg-fifa {
+    background-image: url(images/18.jpg);
+    background-size: cover;
+}
+.bg1 {
+    background-image: url(images/7.png);
+    background-size: cover;
+}
+.bg2 {
+    background-image: url(images/1.png);
+    background-size: cover;
+}
+.bg3 {
+    background-image: url(images/2.png);
+    background-size: cover;
+}
+.bg4 {
+    background-image: url(images/asset-20@2x.png);
+    background-size: cover;
+}
+.bg5 {
+    background-image: url(images/16.png);
+    background-size: cover;
+}
+.bg6 {
+    background-image: url(images/13.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg-hand {
+    background-image: url(images/19.jpg);
+    background-size: cover;
+}
+.bg-clock {
+    background-image: url(images/3.png);
+    background-size: cover;
+}
+.bg-volun {
+    background-image: url(images/4.png);
+    background-size: cover;
+}
+.desktop-burger ul li a {
+    color: #FFFFFF;
+}
+.futer-space    {
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+.width main hr {
+    display: none;
+}
+.hero-bird .width main .clear-float {
+    display: block;
+
+}
+.mo-bg {
+    height: 653px;
+    background-image: url(images/peoples.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+}
+.graphics-bg {
+    height: 653px;
+    background-image: url(images/bg%20leaves.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+}
+
+.bg7 {
+    background-image: url(images/RSBG10AT20.gif);
+    background-size: cover;
+}
+.para {
+    margin-left: 51px;
+    color: #DDDDDD;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: abel;
+    font-style: normal;
+    width: 916px;
+}
+.mal {
+    margin-left: 152px;
+}
+.malamal {
+    margin-left: 254px;
+}
+.yea {
+    margin-left: 473px;
+
+}
+.cv {
+
+
+}
+.sizes {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.arrow-padd {
+    margin-top: 2.8px;
+    width: 12px;
+    height: 12px;
+
+}
+.btn-black {
+    border-style: none;
+    background-color: #212329;
+}
+.eee1 {
+    width: 60%;
+    height: auto;
+    display: block;
+}
+.trevor {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px){
+.burger {
+    display: block;
+    float: right;
+}
+
+.desktop-burger {
+    display: none;
+}
+.expand {
+    display: block;
+    margin-top: 70px;
+    margin-right: -39px;
+}
+.desktop-burger ul li {
+    background-color: #000000;
+    display: block;
+}
+.btn-red {
+    background-color: #000000;
+	border-radius: 0px;
+}
+.hero-image {
+    height: 526px;
+    background-position: 38% 0%;
+}
+.graphics-bg {
+    height: 526px;
+    background-size: cover;
+}
+
+.hero-bird {
+    height: 526px;
+    background-position: 38% 0%;
+}
+
+footer .float-left.futer-pading a img {
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+}
+.width footer .float-right {
+    font-size: 4px;
+}
+.float-right a img {
+    width: 4px;
+    height: 4px;
+    margin-top: 7px;
+    margin-bottom: -0.8px;
+    margin-right: 1px;
+}
+footer {
+    padding-top: 25px;
+    padding-bottom: 43px;
+
+}
+.hello {
+    font-size: 20px;
+    margin-top: 86px;
+    margin-left: 115px;
+}
+.name {
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: 68px;
+    margin-right: 13px;
+}
+.category {
+    font-size: 4px;
+    display: none;
+    margin-top: -880px;
+    margin-bottom: -1559px;
+    padding-bottom: 0px;
+}
+.col-lg {
+    width: 90%;
+}
+.column {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.btn-talk {
+    font-size: 8px;
+
+
+
+}
+main .content.parent-div .btn-talk {
+    margin-top: -173px;
+}
+.width main hr {
+    display: block;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+.width main .content.parent-div {
+    margin-bottom: -80px;
+}
+.mo-bg {
+    height: 526px;
+}
+.para {
+    font-size: 4px;
+    margin-left: 10px;
+}
+.about-padd {
+    font-size: 15px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.about-img {
+    width: 100px;
+    height: 100px;
+    margin-top: -7px;
+}
+.office-padd {
+    font-size: 6px;
+}
+.yea {
+    margin-left: 138px;
+    margin-top: -16px;
+}
+.mal {
+    margin-top: -21px;
+    margin-left: 23px;
+}
+.malamal {
+    margin-top: -21px;
+    margin-left: 64px;
+}
+
+
+
+.title-padd {
+    font-size: 10px;
+    margin-left: 37px;
+    margin-top: 15px;
+}
+	.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.text {
+    font-size: 6px;
+}
+.all-title {
+    font-size: 16px;
+}
+.sizes {
+    font-size: 4px;
+}
+.arrow-padd {
+    width: 3px;
+    height: 3px;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 401px) and (max-width: 768px){
+.burger {
+    display: block;
+    float: right;
+}
+.desktop-burger {
+    display: none;
+}
+.expand {
+    display: block;
+    margin-top: 70px;
+    margin-right: -39px;
+}
+.desktop-burger ul li {
+    display: block;
+    background-color: #000000;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.btn-red {
+    border-radius: 0px;
+}
+footer .float-left.futer-pading a {
+
+}
+.float-left.futer-pading a img {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+footer {
+    padding-top: 27px;
+    padding-bottom: 85px;
+}
+
+.width footer .float-right {
+    font-size: 8px;
+
+}
+.float-right a img {
+    width: 8px;
+    height: 8px;
+}
+.hello {
+    font-size: 40px;
+    margin-left: 124px;
+    margin-top: 94px;
+
+
+
+
+}
+.col-lg {
+    width: 49%;
+}
+.column {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+
+.name {
+    font-size: 60px;
+    margin-top: -64px;
+    margin-left: 25px;
+    margin-right: 14px;
+
+}
+.category {
+    font-size: 8px;
+}
+.bg-hand {
+    background-size: cover;
+}
+main .content.parent-div .btn-talk {
+    margin-bottom: 28px;
+    margin-top: -5px;
+
+
+
+}
+.about-padd {
+    margin-top: 13px;
+    margin-left: 30px;
+    font-size: 31px;
+}
+.para {
+    font-size: 8px;
+    margin-left: 30px;
+}
+.about-img {
+    width: 200px;
+    height: 200px;
+    margin-top: -11px;
+}
+.title-padd {
+    margin-left: 62px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.yea {
+    margin-left: 214px;
+    margin-top: -28px;
+}
+.mal {
+    margin-left: 20px;
+    margin-top: -28px;
+}
+.malamal {
+    margin-left: 87px;
+    margin-top: -28px;
+}
+
+
+
+.office-padd {
+    font-size: 10px;
+    color: #E7E7E7;
+}
+.text {
+    font-size: 10px;
+}
+.all-title {
+    font-size: 20px;
+}
+.sizes {
+    font-size: 8px;
+}
+.arrow-padd {
+    margin-top: 1.5px;
+    width: 6px;
+    height: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
