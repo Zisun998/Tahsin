@@ -65,6 +65,7 @@
     font-weight: 300;
     font-size: 60px;
     margin-left: 117px;
+    margin-top: 155px;
 }
 
 
@@ -520,14 +521,14 @@ footer {
 }
 .hello {
     font-size: 20px;
-    margin-top: 86px;
-    margin-left: 115px;
+    margin-top: 140px;
+    margin-left: 118px;
 }
 .name {
     font-size: 30px;
     margin-top: -29px;
     margin-left: 68px;
-    margin-right: 13px;
+    margin-right: -1px;
 }
 .category {
     font-size: 4px;
@@ -714,7 +715,7 @@ footer {
 .hello {
     font-size: 40px;
     margin-left: 124px;
-    margin-top: 94px;
+    margin-top: 167px;
 
 
 
