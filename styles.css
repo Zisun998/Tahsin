@@ -13,7 +13,7 @@
     font-weight: 700;
     font-size: 80px;
     margin-top: -86px;
-    margin-right: 94px;
+    margin-right: 33px;
 }
 .about-padd {
     margin-top: 27px;
@@ -64,7 +64,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
-    margin-left: 117px;
+    margin-left: 127px;
     margin-top: 155px;
 }
 
@@ -116,7 +116,7 @@ nav div ul li {
 }
 .hero-image {
     height: 653px;
-    background-image: url(images/hero%20image.jpg);
+    background-image: url(images/hero%20image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0%;
